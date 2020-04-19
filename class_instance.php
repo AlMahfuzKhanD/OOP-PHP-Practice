@@ -10,6 +10,14 @@ $mercedes = new Cars(); //another object
 
 $bmw-> greeting(); // activates greeting method
 
+class Car2{
+	function greeting2(){
+		echo "hello";
+	}
+}
+$bmw = new Car2();
+$bmw->greeting2();
+
 
  
 ?>

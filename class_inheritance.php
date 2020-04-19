@@ -18,5 +18,13 @@ class Trucks extends Cars{ //class trucks inherits class Cars
 $tacoma = new Trucks();
 echo $tacoma->wheels;
 
+class Gear extends Cars{
+
+}
+$jet = new Gear();
+echo $jet->wheels . "this is wheel of jet";
+
+
+
 
 ?>

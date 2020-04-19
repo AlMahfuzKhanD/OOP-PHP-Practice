@@ -14,6 +14,17 @@ foreach ($methods as $method) {
  	echo $method . "<br>";
  } 
 
-// $myClasses = get_declared_classes(); 	
+// $myClasses = get_declared_classes();
+
+class Car2{
+
+	function moveWheel(){
+		echo  "Wheels move";
+	}
+} 
+
+if(method_exists("Car2", "moveWheel"))	{
+	echo  "method exist";
+}
 // 
 ?>

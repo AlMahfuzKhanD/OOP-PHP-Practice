@@ -19,6 +19,20 @@ $bmw = new Cars();
 //echo $bmw->seats;
 echo $bmw->car_detail();
 
+class Gear{
+	public $hamar =4;
+	private $axe = 6;
+	protected $engine =8;
+	function detail(){
+echo  $this->hamar;
+echo  $this->axe;
+echo  $this->engine;
+	}
+}
+$gh = new Gear();
+echo $gh->hamar;
+$gh->detail();
+
 
 
 

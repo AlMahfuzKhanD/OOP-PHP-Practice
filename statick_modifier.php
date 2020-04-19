@@ -17,6 +17,13 @@ echo Cars::$doors;
 echo Cars::$doors; // static modifier, static modifier don't need any objects
 Cars::car_detail();
 
+class Gear{
+	public $hamar = 9;
+	static $engine = 3;
+}
+//$vbg = new Gear();
+echo Gear::$engine;
+
 
 
 

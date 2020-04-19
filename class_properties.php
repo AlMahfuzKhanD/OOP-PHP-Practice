@@ -17,6 +17,18 @@ echo $mercedes-> wheel_count . "<br>"; // activates greeting method
 
 echo  $mercedes->car_detail();
 
+class Car2{
+	var $wheel =5;
+	var $hood =1;
+	var $engine =1;
+	function creaDoors(){
+		echo  $this->hood =3;
+	}
+}
+$bmw1 = new Car2();
+echo $bmw1-> hood . " this is hood <br>";
+$bmw1->creaDoors();
+
 
  
 ?>
