@@ -18,20 +18,20 @@ $c1->b = 20;
 
 // checking the result, what will happen if i put some value in empty() function
 // echo "empty(0)\n";
-// var_dump(empty(0));
+// var_dump(empty(0)); // true
 // echo "empty('0')";
-// var_dump(empty("0"));
+// var_dump(empty("0")); // true
 // echo "empty(null)";
-// var_dump(empty(null));
+// var_dump(empty(null)); // true
 // echo "empty(false)";
-// var_dump(empty(false));
+// var_dump(empty(false)); // true
 // echo "empty([])";
-// var_dump(empty([]));
+// var_dump(empty([])); // true
 // echo "empty('')";
-// var_dump(empty(""));
+// var_dump(empty("")); // true
 // echo "empty(' ')";
-// var_dump(empty(" "));
+// var_dump(empty(" ")); // false
 // echo "empty('hello')";
-// var_dump(empty("hello"));
+// var_dump(empty("hello")); // false
 
 ?>
